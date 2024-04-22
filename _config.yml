@@ -26,16 +26,16 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Graduate Student in Computer Science @UC San Diego"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "University of California, San Diego"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "shubhamatucsd@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  orcid            : # URL
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
@@ -45,7 +45,8 @@ author:
   github           : "shubham4104"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
+  youtube          : "https://www.youtube.com/channel/UCX0QyqwcrAt-STO5NEXRm0g"
+  
   # Social media
   bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
@@ -69,7 +70,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "https://www.youtube.com/channel/UCX0QyqwcrAt-STO5NEXRm0g"
+  youtube          : # Username
   zhihu            : # URL
 
 
