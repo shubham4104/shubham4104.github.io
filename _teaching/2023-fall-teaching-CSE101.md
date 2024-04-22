@@ -8,7 +8,7 @@ date: 2023-10-01
 location: "San Diego, CA, USA"
 ---
 
-This section outlines my experience as a Teaching Assistant for the undergraduate course **CSE 101: Design and Analysis of Algorithms** under Professor Miles Jones at the University of California, San Diego during the Fall 2023 term.
+This section outlines my experience as a Teaching Assistant for the undergraduate course **CSE 101: Design and Analysis of Algorithms** under Professor Quang Bach at the University of California, San Diego during the Fall 2023 term.
 
 Introduction to CSE 101
 ======
