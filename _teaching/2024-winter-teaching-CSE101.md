@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-winter-teaching-CSE101
 venue: "University of California, San Diego, Department of Computer Science"
-date: 2023-04-01
+date: 2024-01-01
 location: "San Diego, CA, USA"
 ---
 
