@@ -1,5 +1,5 @@
 ---
-title: "Teaching Experience: CSE 101 - Design and Analysis of Algorithms"
+title: "Spring 2023 - Teaching Experience: CSE 101 - Design and Analysis of Algorithms"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-spring-teaching-CSE101
