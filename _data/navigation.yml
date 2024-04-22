@@ -7,7 +7,7 @@ main:
   #   url: /talks/    
   
   - title: "UCSD"
-  - url: /ucsd_coursework/
+    url: /ucsd_coursework/
   
   - title: "Blog Posts"
     url: /year-archive/
