@@ -1,7 +1,7 @@
 ---
 title: "From Abstract Distances to Concrete Spaces: The Power of Multidimensional Scaling"
-permalink: /posts/2024/2/from-abstract-distances-to-concrete-spaces
 date: 2024-02-25
+permalink: /posts/2024/2/from-abstract-distances-to-concrete-spaces
 tags: Multidimensional Scaling, Data Science, Mathematics
 ---
 
