@@ -5,7 +5,10 @@ main:
 
   # - title: "Talks"
   #   url: /talks/    
-
+  
+  - title: "UCSD Coursework"
+  - url: /ucsd_coursework/
+  
   - title: "Blog Posts"
     url: /year-archive/
 
