@@ -21,7 +21,7 @@ repository               : "shubham4104/shubham4104.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Profile.png"
   name             : "Shubham Thorat"
   pronouns         : # example: "she/her"  
   bio              : "Graduate Student in Computer Science @UC San Diego"
@@ -29,7 +29,6 @@ author:
   employer         : "University of California, San Diego"
   uri              : # URL
   email            : "shubhamatucsd@gmail.com" 
-  youtube          : "https://www.youtube.com/channel/UCX0QyqwcrAt-STO5NEXRm0g"
   
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -38,7 +37,8 @@ author:
   orcid            : # URL
   pubmed           : # URL
   researchgate     : # URL
-
+  youtube          : "https://www.youtube.com/channel/UCX0QyqwcrAt-STO5NEXRm0g"
+  
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
