@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shubham Thorat's Website"
+title                    : "Shubham Thorat"
 title_separator          : "-"
 name                     : &name "Shubham Thorat"
 description              : &description "personal description"
