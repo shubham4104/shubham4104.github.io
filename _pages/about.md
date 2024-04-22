@@ -10,7 +10,7 @@ redirect_from:
 
 # Welcome to My Personal Page
 
-Hello, I'm **Shubham Balasaheb Thorat**. I'm currently a **Master's student in Computer Science at the University of California, San Diego (UCSD)**, expecting to graduate in June 2024. I am deeply involved in cutting-edge research and teaching, working under the guidance of **[Professor Sicun Gao](https://cseweb.ucsd.edu/~siga/)** on advanced algorithms for chip placement and optimization.
+Hello, I'm **Shubham Balasaheb Thorat**. I'm currently a **Master's student in Computer Science at the University of California, San Diego (UCSD)**, expecting to graduate in June 2024. I am deeply involved in cutting-edge research and teaching, working under the guidance of **Professor Sicun Gao** on advanced algorithms for chip placement and optimization.
 
 ## Education
 
