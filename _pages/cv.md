@@ -65,6 +65,7 @@ Exploring the frontiers of technology with a Master's in Computer Science from U
 ### Connect 4 Strategy Optimization | Minimax, Negamax, Alpha-Beta Pruning, Dynamic Programming, Game Theory
 - Developed an optimal strategy for Connect 4 using Minimax and Negamax algorithms, enhanced by Alpha-Beta pruning for efficient decision-making.
 - Streamlined game state analysis for a large board using dynamic programming and algorithmic optimization.
+
 ### Sepsis Prediction using Deep Learning | Python, Pytorch, CNN, RNN, NLP
 - Developed a high-performing model (AUC: 0.75, Recall: 0.69) to predict sepsis likelihood by leveraging word2vec and tf-idf values extracted from clinical reports.
 - Implemented an RNN algorithm to enhance sepsis prediction using sequential data from clinical notes and radiology reports.
