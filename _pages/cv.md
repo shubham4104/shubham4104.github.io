@@ -25,8 +25,10 @@ Exploring the frontiers of technology with a Master's in Computer Science from U
 *Prof. Miles Jones*  
 - CSE 101 (Spring 2024): Algorithm Design and Analysis, March 2024 - Present  
 - CSE 101 (Winter 2024): Algorithm Design and Analysis, January 2024 - March 2024  
+
 *Prof. Quang Bach*  
 - CSE 101 (Fall 2023): Algorithm Design and Analysis, September 2023 - December 2023  
+
 *Prof. Rajiv Gandhi*  
 - FinDS (Summer 2023): Foundations in Data Science, July 2023 - August 2023  
 
@@ -45,6 +47,35 @@ Exploring the frontiers of technology with a Master's in Computer Science from U
 **Infineon Technologies**  
 **SDE Intern**  
 - Improved chip design by developing an auto-placement engine in C++ and Python, reducing chip lifecycle time from 6 months to 2 weeks and utilizing mathematical calculations and software development to generate design data and ML algorithms to predict congestion hotspots, August 2020 - June 2021
+
+## Projects
+
+### Master’s Research: Advanced Pin Placement Optimization | Under Prof. Sicun Gao
+- Engineered a software-based solution using Monte Carlo Tree Search and Upper Confidence heuristics, coupled with a hierarchical approach for improved efficiency and decision-making in grid systems.
+- Achieved recognition with a copyright from the Government of India for creating a unique simulated annealing algorithm, demonstrating exceptional innovation and problem-solving capabilities.
+
+### FIND IT - Locate the Missing Person | NLP, SQL, Django, Data Collection
+- Developed an innovative NLP-based machine learning model for accurately locating missing persons using digital footprints, ranking in the top 30 out of 2437 participants in a competitive hackathon.
+- Led the design and implementation of a Django-based web application, enhancing data collection efficiency and usability for law enforcement agencies.
+
+### Iterative Chip Floorplanning with Generative Models | cGANs, Reinforcement Learning, Python
+- Led a project applying Conditional Generative Adversarial Networks (cGANs) to enhance chip layout planning, achieving notable improvements in efficiency and design precision.
+- Created a hybrid model that merges the decision-making prowess of Reinforcement Learning with the generative capabilities of cGANs, resulting in a significant leap in addressing high-dimensional chip design complexities.
+
+### Connect 4 Strategy Optimization | Minimax, Negamax, Alpha-Beta Pruning, Dynamic Programming, Game Theory
+- Developed an optimal strategy for Connect 4 using Minimax and Negamax algorithms, enhanced by Alpha-Beta pruning for efficient decision-making.
+- Streamlined game state analysis for a large board using dynamic programming and algorithmic optimization.
+### Sepsis Prediction using Deep Learning | Python, Pytorch, CNN, RNN, NLP
+- Developed a high-performing model (AUC: 0.75, Recall: 0.69) to predict sepsis likelihood by leveraging word2vec and tf-idf values extracted from clinical reports.
+- Implemented an RNN algorithm to enhance sepsis prediction using sequential data from clinical notes and radiology reports.
+
+### Investment Recommendation System | Java, Spring Boot, MySQL, JavaScript, MongoDB
+- Award-winning Investment Recommendation project at RBS Hackathon for achieving the highest score in 4/7 parameters.
+- Successfully developed a Spring Boot and Angular web application to promote sustainable investment utilizing web scraping to gather relevant articles on environmental impact.
+
+### Port Placement Optimization with Monte Carlo Tree Search | MCTS, Simulated Annealing, Python
+- Employed Monte Carlo Tree Search (MCTS) and simulated annealing for optimizing port placement on chips, significantly improving the layout efficiency.
+- Received a copyright from the Government of India for developing a novel algorithm for port placement.
 
 ### Education
 
