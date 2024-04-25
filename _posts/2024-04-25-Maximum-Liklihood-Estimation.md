@@ -13,7 +13,7 @@ First, we identify the distribution we want to fit our data to, such as Normal, 
 
 ### Normal Distribution
 
-For the normal distribution, $$P(x) = \\frac{1}{(2 \pi \sigma^2)^{1/2}} \exp^{-\\frac{(x-\mu)^2}{2 \sigma^2}}$$, also represented as $$\mathcal{N}(\mu, \sigma^2)$$, where $$\mu$$ is the mean, and $$\sigma^2$$ is the variance.
+For the normal distribution, $$P(x) = \frac{1}{(2 \pi \sigma^2)^{1/2}} \exp^{-\frac{(x-\mu)^2}{2 \sigma^2}}$$, also represented as $$\mathcal{N}(\mu, \sigma^2)$$, where $$\mu$$ is the mean, and $$\sigma^2$$ is the variance.
 
 To fit our data to the Gaussian distribution, we need both $$\mu$$ and $$\sigma^2$$.
 
@@ -26,7 +26,7 @@ These values make sense naturally since we are accustomed to the Gaussian distri
 
 Similarly, for the Poisson distribution, Poisson($$\lambda$$), we have:
 
-$$P(x=k) = e^{-\lambda} \\frac{\lambda^k}{k!}$$
+$$P(x=k) = e^{-\lambda} \frac{\lambda^k}{k!}$$
 
 Given the data, we need to estimate the value of $\lambda$ to fit it to the Poisson distribution.
 
