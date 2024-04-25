@@ -17,9 +17,8 @@ For the normal distribution, $P(x) = \\frac{1}{(2 \pi \sigma^2)^{1/2}} \exp^{-\\
 
 To fit our data to the Gaussian distribution, we need both $\mu$ and $\sigma^2$.
 
-- $\mu$ is the empirical mean:
-  $\mu = \\frac{X_1 + X_2 + ... + X_n}{n}$
-- $\sigma^2$ is the empirical variance: $\sigma^2 = \\frac{(X_1 - \mu)^2 + (X_2 - \mu)^2 + ... + (X_n - \mu)^2}{n}$
+- $\mu$ is the empirical mean: $$\mu = \frac{X_1 + X_2 + ... + X_n}{n}$$
+- $\sigma^2$ is the empirical variance: $$\sigma^2 = \frac{(X_1 - \mu)^2 + (X_2 - \mu)^2 + ... + (X_n - \mu)^2}{n}$$
 
 These values make sense naturally since we are accustomed to the Gaussian distribution.
 
@@ -33,9 +32,7 @@ Given the data, we need to estimate the value of $\lambda$ to fit it to the Pois
 
 The $E[X] = \lambda, E[X^2] = \lambda$, i.e., the estimated value of both the mean and variance is equal to $\lambda$.
 
-Should we assign $\lambda$ to the empirical mean 
-($\\frac{X_1 + X_2 + ... + X_n}{n}$) 
-or the empirical variance ($\\frac{(X_1 - \mu)^2 + (X_2 - \mu)^2 + ... + (X_n - \mu)^2}{n}$)?
+Should we assign $\lambda$ to the empirical mean ($\\frac{X_1 + X_2 + ... + X_n}{n}$) or the empirical variance ($\\frac{(X_1 - \mu)^2 + (X_2 - \mu)^2 + ... + (X_n - \mu)^2}{n}$)?
 
 This suggests that we need a mechanism to better fit our data to these distributions. This is where _Maximum Likelihood Estimation_ comes to the rescue.
 
