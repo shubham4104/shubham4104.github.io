@@ -55,18 +55,24 @@ $$LL(\lambda)$$ = $$\log(P(data : \lambda))$$
 = $$\log(e^{-\lambda} \frac{\lambda^{X_1}}{X_1!}) + \log(e^{-\lambda} \frac{\lambda^{X_2}}{X_2!}) +...+ \log(e^{-\lambda} \frac{\lambda^{X_n}}{X_n!})$$  
 
 $$LL(\lambda)$$ = $$-n\lambda + (X_1 + X_2 +...+ X_n)*\ln(\lambda) - \ln(X_1! X_2!...X_n!)$$  
-$$\frac{dLL(\lambda)}{d\lambda}$ = $-n + \frac{X_1+X_2...X_n}{\lambda}$$  
+$$\frac{dLL(\lambda)}{d\lambda}$$ = $$-n + \frac{X_1+X_2...X_n}{\lambda}$$  
 
 Setting it to zero, we get $$-n + \frac{X_1+X_2...X_n}{\lambda} = 0 $$, $$\implies \lambda = \frac{X_1+X_2...X_n}{n}$$  
 This implies that $$\lambda$$ is equal to the empirical mean.
 
 **Gaussian Distribution:**  
+- $$P(data: \lambda)$$ = $$\prod_{i=1}^{i=n} \frac{1}{(2 \pi \sigma^2)^{1/2}} \exp^{-\frac{(x-\mu)^2}{2 \sigma^2}}$$
+- $$LL(P(data: \lambda))$$ = $$\frac{n}{2} \ln(\frac{1}{2 \pi \sigma ^2}) - \sum_{i=1}^{i=n} \frac{(X_i - \mu)^2}{2 \sigma^2}$$
+
+Setting it to zero, we get  
 - $$\mu$$ = $$\frac{X_1+X_2...X_n}{n}$$  
 - $$\sigma^2$$ = $$\frac{(X_1-\mu)^2 + (X_2-\mu)^2...(X_n-\mu)^2}{n}$$
 
 **Binomial Distribution:**  
-$$P(data : p)$$ = $${n}\choose{k}$ $p^k$$ $$(1-p)^{n-k}$$  
+$$P(data : p)$$ = $${n}\choose{k}$$ $$p^k$$ $$(1-p)^{n-k}$$  
+
 $$LL(P(data : p))$$ = $${n}\choose{k}$$ + $$k \ln{(p)}$$ + $$(n-k)\ln{(1-p)}$$  
+
 Setting it to zero, we get $$\frac{dLL}{dp} = \frac{k}{p} -\frac{n-k}{1-p} = 0$$, $$\implies p = \frac{k}{n}$$
 
 Given all the benefits of MLE, it can be biased in finite samples where it diminishes as the sample size increases.
