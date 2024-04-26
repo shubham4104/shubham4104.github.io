@@ -43,14 +43,14 @@ Let's say we have P= $$P_{\theta}$$ : $$\theta \in \Theta$$ be the probability d
 - For P = Gaussian, $$\theta$$ = $$(\mu, \sigma^2)$$  
 - For P = Poisson, $$\theta$$ = $$(\lambda)$$
 
-The goal of MLE is to find this $\theta$. To find these parameters, we write the expression $$\log(P(data : \theta))$$ and solve for $$\theta$$ (Maximizing the log-likelihood is equivalent to maximizing the likelihood).
+The goal of MLE is to find this $$\theta$$. To find these parameters, we write the expression $$\log(P(data : \theta))$$ and solve for $$\theta$$ (Maximizing the log-likelihood is equivalent to maximizing the likelihood).
 
 **Applying MLE to Different Distributions:**
 
 **Poisson Distribution:**  
-- $$LL(\lambda)$$ = $$\log(P(data : \lambda))$$  
-= $$\log(P(X_1, X_2, ..., X_n : \lambda))$$  
-= $$\log(\prod_{i=1}^{i=n}P(X_i : \lambda))$$  
+- $$LL(\lambda)$$ = $$\ln(P(data : \lambda))$$  
+= $$\ln(P(X_1, X_2, ..., X_n : \lambda))$$  
+= $$\ln(\prod_{i=1}^{i=n}P(X_i : \lambda))$$  
 = $$\sum_{i=1}^{i=n}\log(P(X_{i} : \lambda))$$  
 = $$\sum_{i=1}^{i=n}\log(e^{-\lambda} \frac{\lambda^{X_i}}{X_i!})$$  
 
