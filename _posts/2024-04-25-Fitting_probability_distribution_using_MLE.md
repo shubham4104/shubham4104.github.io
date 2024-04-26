@@ -36,7 +36,7 @@ Should we assign $$\lambda$$ to the empirical mean ($$\frac{X_1 + X_2 + ... + X_
 
 This suggests that we need a mechanism to better fit our data to these distributions. This is where _Maximum Likelihood Estimation_ comes to the rescue.
 
-### Maximum Likelihood Estimation (MLE)
+### Maximum Likelihood Estimation (MLE)  
 
 Let's say we have $$P= P_{\theta} | \theta \in \Theta$$ be the probability distribution. Maximum Likelihood Estimation (MLE) picks the $$\theta \in \Theta$$ that makes the data maximally likely, In other words maximizes $$P(data |\theta) = P_{\theta}(data)$$.  
 
