@@ -69,9 +69,8 @@ Setting it to zero, we get
 - $$\sigma^2$$ = $$\frac{(X_1-\mu)^2 + (X_2-\mu)^2...(X_n-\mu)^2}{n}$$
 
 **Binomial Distribution:**  
-$$P(data : p)$$ = $${n}\choose{k}$$ $$p^k$$ $$(1-p)^{n-k}$$  
-
-$$LL(P(data : p))$$ = $${n}\choose{k}$$ + $$k \ln{(p)}$$ + $$(n-k)\ln{(1-p)}$$  
+- $$P(data : p)$$ = $${n}\choose{k}$$ $$p^k$$ $$(1-p)^{n-k}$$  
+- $$LL(P(data : p))$$ = $${n}\choose{k}$$ + $$k \ln{(p)}$$ + $$(n-k)\ln{(1-p)}$$  
 
 Setting it to zero, we get $$\frac{dLL}{dp} = \frac{k}{p} -\frac{n-k}{1-p} = 0$$, $$\implies p = \frac{k}{n}$$
 
