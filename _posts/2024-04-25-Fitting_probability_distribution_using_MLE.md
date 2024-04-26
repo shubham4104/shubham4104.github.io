@@ -38,17 +38,17 @@ This suggests that we need a mechanism to better fit our data to these distribut
 
 ### Maximum Likelihood Estimation (MLE)  
 
-Let's say we have P= $$P_{\theta}$$ | $$\theta \in \Theta$$ be the probability distribution. Maximum Likelihood Estimation (MLE) picks the $$\theta \in \Theta$$ that makes the data maximally likely, In other words maximizes P(data | $$\theta$$) = $$P_{\theta}(data)$$.  
+Let's say we have P= $$P_{\theta}$$ : $$\theta \in \Theta$$ be the probability distribution. Maximum Likelihood Estimation (MLE) picks the $$\theta \in \Theta$$ that makes the data maximally likely, In other words maximizes P(data : $$\theta$$) = $$P_{\theta}(data)$$.  
 
 - For P = Gaussian, $$\theta$$ = $$(\mu, \sigma^2)$$  
 - For P = Poisson, $$\theta$$ = $$(\lambda)$$
 
-The goal of MLE is to find this $\theta$. To find these parameters, we write the expression $$\log(P(data | \theta))$$ and solve for $$\theta$$ (Maximizing the log-likelihood is equivalent to maximizing the likelihood).
+The goal of MLE is to find this $\theta$. To find these parameters, we write the expression $$\log(P(data : \theta))$$ and solve for $$\theta$$ (Maximizing the log-likelihood is equivalent to maximizing the likelihood).
 
 **Applying MLE to Different Distributions:**
 
 **Poisson Distribution:**  
-$$LL(\lambda)$$ = $$\log(P(data | \lambda))$$ = $$\log(P(X_1, X_2, ..., X_n | \lambda))$$ = $$\log(P(X_1 | \theta) * P(X_1 | \theta)...P(X_n | \theta))$$ = $$\log(P(X_1 | \theta)) + \log(P(X_1 | \theta)) + ... + \log(P(X_n | \theta))$$ = $$\log(e^{-\lambda} \frac{\lambda^{X_1}}{X_1!}) + \log(e^{-\lambda} \frac{\lambda^{X_2}}{X_2!}) +...+ \log(e^{-\lambda} \frac{\lambda^{X_n}}{X_n!})$$  
+$$LL(\lambda)$$ = $$\log(P(data : \lambda))$$ = $$\log(P(X_1, X_2, ..., X_n : \lambda))$$ = $$\log(P(X_1 : \theta) * P(X_1 : \theta)...P(X_n : \theta))$$ = $$\log(P(X_1 : \theta)) + \log(P(X_1 : \theta)) + ... + \log(P(X_n : \theta))$$ = $$\log(e^{-\lambda} \frac{\lambda^{X_1}}{X_1!}) + \log(e^{-\lambda} \frac{\lambda^{X_2}}{X_2!}) +...+ \log(e^{-\lambda} \frac{\lambda^{X_n}}{X_n!})$$  
 $$LL(\lambda)$$ = $$-n\lambda + (X_1 + X_2 +...+ X_n)*\ln(\lambda) - \ln(X_1! X_2!...X_n!)$$  
 $$\frac{dLL(\lambda)}{d\lambda}$ = $-n + \frac{X_1+X_2...X_n}{\lambda}$$  
 Setting it to zero, we get $$-n + \frac{X_1+X_2...X_n}{\lambda}$$, $$\implies \lambda = \frac{X_1+X_2...X_n}{n}$$  
@@ -59,8 +59,8 @@ $$\mu$$ = $$\frac{X_1+X_2...X_n}{n}$$
 $$\sigma^2$$ = $$\frac{(X_1-\mu)^2 + (X_2-\mu)^2...(X_n-\mu)^2}{n}$$
 
 **Binomial Distribution:**  
-$$P(data | p)$$ = $${n}\choose{k}$ $p^k$$ $$(1-p)^{n-k}$$  
-$$LL(P(data | p))$$ = $${n}\choose{k}$$ + $$k \ln{(p)}$$ + $$(n-k)\ln{(1-p)}$$  
+$$P(data : p)$$ = $${n}\choose{k}$ $p^k$$ $$(1-p)^{n-k}$$  
+$$LL(P(data : p))$$ = $${n}\choose{k}$$ + $$k \ln{(p)}$$ + $$(n-k)\ln{(1-p)}$$  
 Setting it to zero, we get $$\frac{dLL}{dp} = \frac{k}{p} -\frac{n-k}{1-p} = 0$$, $$\implies p = \frac{k}{n}$$
 
 Given all the benefits of MLE, it can be biased in finite samples where it diminishes as the sample size increases.
