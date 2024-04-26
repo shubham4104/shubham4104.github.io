@@ -50,9 +50,9 @@ The goal of MLE is to find this $\theta$. To find these parameters, we write the
 **Poisson Distribution:**  
 - $$LL(\lambda)$$ = $$\log(P(data : \lambda))$$  
 = $$\log(P(X_1, X_2, ..., X_n : \lambda))$$  
-= $$\log(P(X_1 : \theta) * P(X_1 : \theta)...P(X_n : \theta))$$  
-= $$\log(P(X_1 : \theta)) + \log(P(X_1 : \theta)) + ... + \log(P(X_n : \theta))$$  
-= $$\log(e^{-\lambda} \frac{\lambda^{X_1}}{X_1!}) + \log(e^{-\lambda} \frac{\lambda^{X_2}}{X_2!}) +...+ \log(e^{-\lambda} \frac{\lambda^{X_n}}{X_n!})$$  
+= $$\log(\prod_{i=1}^{i=n}P(X_i : \lambda))$$  
+= $$\sum_{i=1}^{i=n}\log(P(X_{i} : \lambda))$$  
+= $$\sum_{i=1}^{i=n}\log(e^{-\lambda} \frac{\lambda^{X_i}}{X_i!})$$  
 
 - $$LL(\lambda)$$ = $$-n\lambda + (X_1 + X_2 +...+ X_n)*\ln(\lambda) - \ln(X_1! X_2!...X_n!)$$  
 - $$\frac{dLL(\lambda)}{d\lambda}$$ = $$-n + \frac{X_1+X_2...X_n}{\lambda}$$  
