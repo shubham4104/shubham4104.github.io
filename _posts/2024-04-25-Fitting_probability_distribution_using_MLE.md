@@ -48,15 +48,21 @@ The goal of MLE is to find this $\theta$. To find these parameters, we write the
 **Applying MLE to Different Distributions:**
 
 **Poisson Distribution:**  
-$$LL(\lambda)$$ = $$\log(P(data : \lambda))$$ = $$\log(P(X_1, X_2, ..., X_n : \lambda))$$ = $$\log(P(X_1 : \theta) * P(X_1 : \theta)...P(X_n : \theta))$$ = $$\log(P(X_1 : \theta)) + \log(P(X_1 : \theta)) + ... + \log(P(X_n : \theta))$$ = $$\log(e^{-\lambda} \frac{\lambda^{X_1}}{X_1!}) + \log(e^{-\lambda} \frac{\lambda^{X_2}}{X_2!}) +...+ \log(e^{-\lambda} \frac{\lambda^{X_n}}{X_n!})$$  
+$$LL(\lambda)$$ = $$\log(P(data : \lambda))$$  
+= $$\log(P(X_1, X_2, ..., X_n : \lambda))$$  
+= $$\log(P(X_1 : \theta) * P(X_1 : \theta)...P(X_n : \theta))$$  
+= $$\log(P(X_1 : \theta)) + \log(P(X_1 : \theta)) + ... + \log(P(X_n : \theta))$$  
+= $$\log(e^{-\lambda} \frac{\lambda^{X_1}}{X_1!}) + \log(e^{-\lambda} \frac{\lambda^{X_2}}{X_2!}) +...+ \log(e^{-\lambda} \frac{\lambda^{X_n}}{X_n!})$$  
+
 $$LL(\lambda)$$ = $$-n\lambda + (X_1 + X_2 +...+ X_n)*\ln(\lambda) - \ln(X_1! X_2!...X_n!)$$  
 $$\frac{dLL(\lambda)}{d\lambda}$ = $-n + \frac{X_1+X_2...X_n}{\lambda}$$  
-Setting it to zero, we get $$-n + \frac{X_1+X_2...X_n}{\lambda}$$, $$\implies \lambda = \frac{X_1+X_2...X_n}{n}$$  
+
+Setting it to zero, we get $$-n + \frac{X_1+X_2...X_n}{\lambda} = 0 $$, $$\implies \lambda = \frac{X_1+X_2...X_n}{n}$$  
 This implies that $$\lambda$$ is equal to the empirical mean.
 
 **Gaussian Distribution:**  
-$$\mu$$ = $$\frac{X_1+X_2...X_n}{n}$$  
-$$\sigma^2$$ = $$\frac{(X_1-\mu)^2 + (X_2-\mu)^2...(X_n-\mu)^2}{n}$$
+- $$\mu$$ = $$\frac{X_1+X_2...X_n}{n}$$  
+- $$\sigma^2$$ = $$\frac{(X_1-\mu)^2 + (X_2-\mu)^2...(X_n-\mu)^2}{n}$$
 
 **Binomial Distribution:**  
 $$P(data : p)$$ = $${n}\choose{k}$ $p^k$$ $$(1-p)^{n-k}$$  
