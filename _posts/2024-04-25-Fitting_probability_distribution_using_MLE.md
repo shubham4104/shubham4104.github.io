@@ -48,17 +48,17 @@ The goal of MLE is to find this $\theta$. To find these parameters, we write the
 **Applying MLE to Different Distributions:**
 
 **Poisson Distribution:**  
-$$LL(\lambda)$$ = $$\log(P(data : \lambda))$$  
+- $$LL(\lambda)$$ = $$\log(P(data : \lambda))$$  
 = $$\log(P(X_1, X_2, ..., X_n : \lambda))$$  
 = $$\log(P(X_1 : \theta) * P(X_1 : \theta)...P(X_n : \theta))$$  
 = $$\log(P(X_1 : \theta)) + \log(P(X_1 : \theta)) + ... + \log(P(X_n : \theta))$$  
 = $$\log(e^{-\lambda} \frac{\lambda^{X_1}}{X_1!}) + \log(e^{-\lambda} \frac{\lambda^{X_2}}{X_2!}) +...+ \log(e^{-\lambda} \frac{\lambda^{X_n}}{X_n!})$$  
 
-$$LL(\lambda)$$ = $$-n\lambda + (X_1 + X_2 +...+ X_n)*\ln(\lambda) - \ln(X_1! X_2!...X_n!)$$  
-$$\frac{dLL(\lambda)}{d\lambda}$$ = $$-n + \frac{X_1+X_2...X_n}{\lambda}$$  
+- $$LL(\lambda)$$ = $$-n\lambda + (X_1 + X_2 +...+ X_n)*\ln(\lambda) - \ln(X_1! X_2!...X_n!)$$  
+- $$\frac{dLL(\lambda)}{d\lambda}$$ = $$-n + \frac{X_1+X_2...X_n}{\lambda}$$  
 
 Setting it to zero, we get $$-n + \frac{X_1+X_2...X_n}{\lambda} = 0 $$, $$\implies \lambda = \frac{X_1+X_2...X_n}{n}$$  
-This implies that $$\lambda$$ is equal to the empirical mean.
+This implies that $$\lambda$$ is equal to the empirical mean for Poisson distribution.
 
 **Gaussian Distribution:**  
 - $$P(data: \lambda)$$ = $$\prod_{i=1}^{i=n} \frac{1}{(2 \pi \sigma^2)^{1/2}} \exp^{-\frac{(x-\mu)^2}{2 \sigma^2}}$$
