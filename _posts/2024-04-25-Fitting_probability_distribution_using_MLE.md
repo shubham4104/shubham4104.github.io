@@ -1,5 +1,5 @@
 ---
-title: "Exploring Maximum Likelihood Estimation"
+title: "Fitting Probability Distributions with Maximum Likelihood Estimation"
 date: 2024-04-25
 permalink: /blog/exploring-MLE
 tags: [MLE, Distributions]
@@ -71,8 +71,4 @@ There are other alternatives to MLE:
 
 ### Conclusion
 
-Maximum Likelihood Estimation is a powerful and widely used technique for estimating the parameters of probability distributions from sample data. By maximizing the likelihood function, MLE provides a principled way to find the parameter values that make the observed data most probable under a given distribution.
-
-However, it's important to note that MLE can exhibit bias in finite sample sizes, and its performance may depend on the specific distribution and data characteristics. In such cases, alternative methods like Maximum Entropy or Bayesian Estimation can be explored to mitigate potential biases or incorporate additional information through prior distributions.
-
-Ultimately, the choice of estimation method should be guided by the problem context, data characteristics, and the trade-offs between bias, variance, and computational complexity. Careful consideration of these factors can lead to more reliable and accurate parameter estimates, enabling better modeling and decision-making in various domains.
+Maximum Likelihood Estimation is a powerful technique for estimating parameters of probability distributions from data. By maximizing the likelihood function, it finds parameter values that make the observed data most probable. However, MLE can exhibit bias in finite samples, and alternative methods like Maximum Entropy or Bayesian Estimation may be explored to mitigate potential biases or incorporate additional information. Ultimately, the choice of estimation method should consider the problem context, data characteristics, and the trade-offs between bias, variance, and computational complexity.
